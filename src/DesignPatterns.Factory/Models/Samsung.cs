@@ -1,4 +1,4 @@
-using DesignPatterns.Factory.Factory;
+using DesignPatterns.Factory.Factories;
 
 namespace DesignPatterns.Factory.Models;
 

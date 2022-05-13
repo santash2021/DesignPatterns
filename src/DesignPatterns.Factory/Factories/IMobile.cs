@@ -1,4 +1,4 @@
-namespace DesignPatterns.Factory.Factory;
+namespace DesignPatterns.Factory.Factories;
 
 public interface IMobile
 {

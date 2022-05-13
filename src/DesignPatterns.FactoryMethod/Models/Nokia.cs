@@ -1,6 +1,4 @@
-using DesignPatterns.Factory.Factories;
-
-namespace DesignPatterns.Factory.Models;
+namespace DesignPatterns.FactoryMethod.Models;
 
 public class Nokia : IMobile
 {
@@ -11,6 +9,6 @@ public class Nokia : IMobile
 
     public int GetPrice()
     {
-        return 50000;
+        return 40000;
     }
 }

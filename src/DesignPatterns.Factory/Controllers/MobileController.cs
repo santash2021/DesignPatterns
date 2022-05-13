@@ -1,4 +1,4 @@
-using DesignPatterns.Factory.Factory;
+using DesignPatterns.Factory.Factories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DesignPatterns.Factory.Controllers;

@@ -1,8 +1,6 @@
-using DesignPatterns.Factory.Factories;
+namespace DesignPatterns.FactoryMethod.Models;
 
-namespace DesignPatterns.Factory.Models;
-
-public class Nokia : IMobile
+public class Samsung : IMobile
 {
     public string GetModel()
     {
