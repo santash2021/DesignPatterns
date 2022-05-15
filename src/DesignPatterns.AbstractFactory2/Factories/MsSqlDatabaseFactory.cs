@@ -3,7 +3,7 @@ using DesignPatterns.AbstractFactory2.Models;
 
 namespace DesignPatterns.AbstractFactory2.Factories;
 
-public class MsSqlDatabase : DatabaseFactory
+public class MsSqlDatabaseFactory : DatabaseFactory
 {
     public override Connection CreateConnection()
     {

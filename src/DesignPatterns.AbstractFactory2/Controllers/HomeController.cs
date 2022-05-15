@@ -10,7 +10,7 @@ public class HomeController : Controller
     [HttpGet]
     public IActionResult Index()
     {
-        var creator = new Creator(new MsSqlDatabase());
+        var creator = new Creator(new MsSqlDatabaseFactory());
         return Ok();
     }
 }
